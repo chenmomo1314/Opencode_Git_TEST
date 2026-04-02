@@ -29,6 +29,5 @@ jobs:
         uses: anomalyco/opencode/github@latest
         env:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
-	  share: true  # 尝试添加环境变量
         with:
           model: minimax-cn-coding-plan/MiniMax-M2.5
