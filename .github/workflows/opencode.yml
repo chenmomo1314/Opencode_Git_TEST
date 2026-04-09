@@ -31,3 +31,8 @@ jobs:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
         with:
           model: minimax-cn-coding-plan/MiniMax-M2.5
+          prompt: |
+      Review this pull request:
+      - Check for code quality issues
+      - Look for potential bugs
+      - Suggest improvements
